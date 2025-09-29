@@ -9,7 +9,7 @@ def main():
    
 
     # YOUR CODE FOR PART 2 GOES HERE
-    print(f'cost_per_item = ${cost_per_item:0.2f}') # a sample for you to use for the other prices
+    print(f'cost_per_item = ${cost_per_item:0.2f}') 
     print(f'quantity = {quantity}')
     print(f'subtotal_cost = ${subtotal_cost:0.2f}')
     print(f'tax = ${tax:0.2f}')
@@ -25,7 +25,7 @@ def main():
     investment += investment * interest_rate
     investment += investment * interest_rate
     print('After 5 years, your investment will be worth ' + str(investment) + ' dollars.')
-    #expected output: After 5 years, your investment will be worth 1187.6863056468749 dollars.
+    
     
 
 if __name__ == "__main__":
